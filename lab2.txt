@@ -1,0 +1,57 @@
+n = int(input("Введите чило: "))
+if 1000 <= n <= 9999: 
+    thousands = n // 1000
+    hundreds = (n // 100) % 10
+    tens = (n // 10) % 10
+    units = n % 10
+
+    if thousands + units == hundreds - tens:
+        print("Yes")
+    else:
+        print("No")
+else: 
+    print("its not four digit number")
+
+2)
+n = int(input("Введите возраст: "))
+if n == 18:
+    print("Access is allowed!")
+
+else:
+    print("Access denied!")
+
+2)
+a = int(input(""))
+b = int(input(""))
+c = int(input(""))
+if b - a == c - b:
+    print("YES")
+else:
+    print("NO")
+3)
+a = int(input(""))
+b = int(input(""))
+c = int(input(""))
+d = int(input(""))
+if a == c or b == d:
+    print("YeS")
+else:
+    print("No")
+3)
+a1 = int(input(""))
+b1 = int(input(""))
+a2 = int(input(""))
+b2 = int(input(""))
+if abs(a1  - a2 <= 1) and abs(b1 - b2 <= 1):
+    print("YeS")
+else:
+    print("No")
+4)
+a1 = int(input(""))
+b1 = int(input(""))
+a2 = int(input(""))
+b2 = int(input(""))
+if abs(a1  - a2 <= 1) and abs(b1 - b2 <= 1):
+    print("YeS")
+else:
+    print("No")
